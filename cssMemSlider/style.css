@@ -35,21 +35,27 @@ body{
     background-repeat: no-repeat;
     /* left:0; right:0;
     margin-left: auto; margin-right: auto;  */
-} */
+
 .slide1 { 
-    background-image: url("assets/img/1.jpg");
+    /* background-image: url("assets/img/1.jpg"); */
     
     margin-left: 20px;
     }
 .slide2 { background-image: url("assets/img/2.jpg"); }
 .slide3 { background-image: url("assets/img/3.jpg"); }
 .slide4 { background-image: url("assets/img/4.jpg"); }
+slide1 .img{
+    margin-left: 20px;
+}
 
 p {
     position: relative;
     top: 610px;
     font-size: 18px;
     color: #ddd;
+}
+.p1{
+    top:0;
 }
 .wrapper .controls {
 	left: 90%;
