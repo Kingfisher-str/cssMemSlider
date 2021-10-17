@@ -9,9 +9,12 @@ body{
 .wrapper {
 
     height: 630px; 
-	margin: 10px auto 0; 
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 5% auto; */
+	/* margin: 10px auto 0;  */
     width:600px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .wrapper > input {
 	display: none;
@@ -35,7 +38,7 @@ body{
 .slide2 { background-image: url("assets/img/2.jpg"); }
 .slide3 { background-image: url("assets/img/3.jpg"); }
 .slide4 { background-image: url("assets/img/4.jpg"); }
-slide1 .img{
+.slide1 .img{
     margin-left: 20px;
 }
 
@@ -69,7 +72,7 @@ p {
 	height: 12px;
 	left: -3px;
 	position: relative;
-	top: -4px;
+	top: -3px;
 	width: 12px;
 	border-radius: 50%;
 }
@@ -110,14 +113,13 @@ p {
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
 #slide3:checked ~ .slider > .slide3,
-#slide4:checked ~ .slider > .slide4,
-#slide5:checked ~ .slider > .slide5 {
+#slide4:checked ~ .slider > .slide4 {
 	opacity: 1;
 	z-index: 1;
 	transform: scale(1);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 320px) {
     .wrapper {
 
         height: 660px; 
